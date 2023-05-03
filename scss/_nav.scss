@@ -1,0 +1,23 @@
+nav {
+    background-color:$primaryColor;
+    color:white;
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    .links {
+        a {
+            color:white;
+            text-decoration:none;
+            margin-left:10px;
+            margin-right:10px;
+        }
+    }
+
+    .title {
+        margin-right:10px;
+    }
+}
