@@ -12,6 +12,71 @@ html, body {
     font-family:sans-serif;
 }
 
+//Nav
+nav {
+    background-color:$primaryColor;
+    color:white;
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    .links {
+        a {
+            color:white;
+            text-decoration:none;
+            margin-left:10px;
+            margin-right:10px;
+        }
+    }
+
+    .title {
+        margin-right:10px;
+    }
+}
+
+//Sections
+.lightBackgroundSection {
+    background-color:white;
+    h1 {
+        color:$primaryColor;
+    }
+}
+
+.darkBackgroundSection {
+    background-color:$primaryColor;
+    color:white;
+}
+
+.lightBackgroundSection, .darkBackgroundSection {
+    text-align:center;
+    padding:7px 10vw;
+
+    h1 {
+        font-size:35px;
+        margin-top:7px;
+        margin-bottom:7px;
+    }
+
+    p {
+        font-size:15px;
+    }
+}
+
+//Footer
+footer {
+    background-color:$secondaryColor;
+    text-align:center;
+    p {
+        margin:0;
+        padding:10px;
+    }
+    a {
+        color:black;
+    }
+}
+
 //Imports
-@import "nav";
-@import "hero";
+@import "index";

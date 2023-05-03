@@ -24,6 +24,69 @@ nav .title {
   margin-right: 10px;
 }
 
+.lightBackgroundSection {
+  background-color: white;
+}
+.lightBackgroundSection h1 {
+  color: #005248;
+}
+
+.darkBackgroundSection {
+  background-color: #005248;
+  color: white;
+}
+
+.lightBackgroundSection, .darkBackgroundSection {
+  text-align: center;
+  padding: 7px 10vw;
+}
+.lightBackgroundSection h1, .darkBackgroundSection h1 {
+  font-size: 35px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.lightBackgroundSection p, .darkBackgroundSection p {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #CBCB00;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding: 10px;
+}
+footer a {
+  color: black;
+}
+
 .hero img {
   width: 100%;
+}
+
+h2 {
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+#scoringH2 + p {
+  margin-top: 5px;
+}
+
+table {
+  background-color: #C3FCF1;
+  color: black;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5px;
+}
+table th, table td {
+  padding: 5px;
+}
+
+table, th, td {
+  border: 2px solid black;
 }

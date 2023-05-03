@@ -1,0 +1,32 @@
+.hero {
+    img {
+        width:100%;
+    }
+}
+
+h2 {
+    margin-top:7px;
+    margin-bottom:0px;
+}
+
+#scoringH2+p {
+    margin-top:5px;
+}
+
+table {
+    background-color:$thirdColor;
+    color:black;
+    border-collapse:collapse;
+    font-size:15px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0 5px;
+
+    th, td {
+        padding:5px;
+    }
+}
+
+table, th, td {
+    border:2px solid black;
+}
