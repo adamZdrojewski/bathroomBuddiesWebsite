@@ -1,9 +1,11 @@
+//Hero image
 .hero {
     img {
         width:100%;
     }
 }
 
+//Scoring header
 h2 {
     margin-top:7px;
     margin-bottom:0px;
@@ -13,6 +15,7 @@ h2 {
     margin-top:5px;
 }
 
+//Scoring table
 table {
     background-color:$thirdColor;
     color:black;
@@ -29,4 +32,56 @@ table {
 
 table, th, td {
     border:2px solid black;
+}
+
+//Recent audits
+.recentAudits {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.recentAudit {
+    background-color:$secondaryColor;
+    margin:15px;
+    padding:5px 20px;
+
+    p {
+        margin:10px 0;
+    }
+}
+
+//About the auditors
+.auditor {
+    display:flex;
+
+    img {
+        flex-basis:20%;
+        width:200px;
+        border-radius:50%;
+    }
+
+    .auditorText {
+        flex-basis:80%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding:0 20px;
+
+        h3, p {
+            margin:0;
+        }
+
+        h3 {
+            font-size:25px;
+        }
+    }
+
+    #adamText {
+        align-items:flex-start;
+    }
+
+    #brennanText {
+        align-items:flex-end;
+    }
 }
