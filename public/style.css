@@ -164,3 +164,18 @@ table, th, td {
 #definitionContainer li {
   text-align: left;
 }
+
+.park {
+  background-color: #C3FCF1;
+  margin: 10px;
+}
+.park img {
+  width: 100%;
+}
+.park .parkContent h2 {
+  margin: 7px;
+}
+.park .parkContent p {
+  margin: 7px;
+  padding-bottom: 3px;
+}
